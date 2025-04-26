@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<header>
+  <h1>Contato</h1>
+  <nav>
+    <a href="index.html" class="menu-link">Início</a>
+    <a href="galeria.html" class="menu-link">Galeria</a>
+    <a href="contato.html" class="menu-link">Contato</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <form action="#" method="post">
+
+      <h2>Dados Pessoais</h2>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="idade">Idade:</label>
+      <input type="number" id="idade" name="idade" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required>
+
+      <label for="data-nascimento">Data de nascimento:</label>
+      <input type="date" id="data-nascimento" name="data-nascimento">
+
+      <label for="sexo">Sexo:</label>
+      <select id="sexo" name="sexo">
+        <option value="">Selecione</option>
+        <option value="feminino">Feminino</option>
+        <option value="masculino">Masculino</option>
+        <option value="outro">Outro</option>
+      </select>
+
+      <label for="estado-civil">Estado civil:</label>
+      <select id="estado-civil" name="estado-civil">
+        <option value="">Selecione</option>
+        <option value="solteiro">Solteiro(a)</option>
+        <option value="casado">Casado(a)</option>
+        <option value="outro">Outro</option>
+      </select>
+
+      <h2>Dados da Empresa</h2>
+      <label for="cnpj">CNPJ:</label>
+      <input type="text" id="cnpj" name="cnpj">
+
+      <label for="razao-social">Razão Social:</label>
+      <input type="text" id="razao-social" name="razao-social">
+
+      <label for="ramo">Ramo de atuação:</label>
+      <input type="text" id="ramo" name="ramo">
+
+      <h2>Endereço</h2>
+      <label for="cep">CEP:</label>
+      <input type="text" id="cep" name="cep" required>
+
+      <label for="tipo-logradouro">Tipo de Logradouro:</label>
+      <select id="tipo-logradouro" name="tipo-logradouro" required>
+        <option value="rua">Rua</option>
+        <option value="avenida">Avenida</option>
+        <option value="praça">Praça</option>
+      </select>
+
+      <label for="logradouro">Logradouro:</label>
+      <input type="text" id="logradouro" name="logradouro" required>
+
+      <label for="cidade">Cidade:</label>
+      <input type="text" id="cidade" name="cidade" required>
+
+      <label for="estado">Estado:</label>
+      <input type="text" id="estado" name="estado" required>
+
+      <h2>Descrição Detalhada</h2>
+      <label for="descricao">Descrição do interesse:</label>
+      <textarea id="descricao" name="descricao" rows="5" required></textarea>
+
+      <h2>Outros</h2>
+      <p>Como você nos encontrou?</p>
+      <input type="checkbox" id="site" name="origem" value="site">
+      <label for="site">Site</label><br>
+
+      <input type="checkbox" id="amigos" name="origem" value="amigos">
+      <label for="amigos">Amigos</label><br>
+
+      <input type="checkbox" id="redes-sociais" name="origem" value="redes-sociais">
+      <label for="redes-sociais">Redes Sociais</label><br>
+
+      <input type="checkbox" id="outro" name="origem" value="outro">
+      <label for="outro">Outro</label><br>
+
+      <p>Tipo de atendimento desejado:</p>
+      <input type="radio" id="presencial" name="atendimento" value="presencial">
+      <label for="presencial">Presencial</label><br>
+
+      <input type="radio" id="online" name="atendimento" value="online">
+      <label for="online">Online</label><br>
+
+      <input type="radio" id="hibrido" name="atendimento" value="hibrido">
+      <label for="hibrido">Híbrido</label><br><br>
+
+      <input type="submit" value="Enviar">
+
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Juliana Aparecida - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
